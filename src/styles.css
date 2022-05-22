@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.chart-wrapper__vertical {
+  background: black;
+  width: 1px;
+  position: absolute;
+  left: 50%;
+  height: 100vh;
+}
+
+.chart-wrapper__horizontal {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.chart-wrapper__yScale {
+  height: calc(100vh / 14);
+  line-height: calc(100vh / 14);
+  margin-left: 5px;
+}
+
+.chart-wrapper__xScale {
+  margin-top: 5px;
+}
+
+.chart-wrapper__circleContainer {
+  position: relative;
+  right: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 8px;
+}
